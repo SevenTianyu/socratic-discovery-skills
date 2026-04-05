@@ -2,7 +2,11 @@
 
 [简体中文](./README.zh-CN.md)
 
-Socratic Discovery is a pair of language-specific skills for guided Socratic exploration. Instead of rushing to provide answers, these skills help an assistant ask one thoughtful question at a time so the user can build understanding through their own reasoning.
+Socratic Discovery is a pair of language-specific skills for guided Socratic exploration.
+
+Instead of rushing to provide answers, these skills help an assistant ask one thoughtful question at a time so the user can build understanding through their own reasoning.
+
+If you want an assistant to help you uncover blind spots, hidden assumptions, and "unknown unknowns" without taking over your thinking, this repository is built for that.
 
 This repository includes:
 
@@ -15,6 +19,19 @@ Both versions are designed to help users explore:
 - blind spots and hidden assumptions
 - "unknown unknowns"
 - deeper understanding through self-generated thinking
+
+## Quick Start
+
+1. Open this repository in your browser, or clone it locally.
+2. Choose one skill folder:
+   `socratic-discovery-en` or `socratic-discovery-zh`
+3. Add that folder to the local skills library used by your assistant environment.
+4. Invoke it by name.
+
+Example prompts:
+
+- `Use $socratic-discovery-en to help me think through something I do not understand yet by asking one question at a time.`
+- `Use $socratic-discovery-zh to guide me in Chinese through a topic I do not fully understand yet, one question at a time.`
 
 ## Who This Is For
 
@@ -34,6 +51,17 @@ Each skill turns the assistant into a patient Socratic guide that:
 - adjusts difficulty based on the user's answers
 - notices thought patterns and blind spots
 - closes by asking the user to restate what they now understand
+
+## Good Fit
+
+Use these skills when you want the assistant to:
+
+- slow down and help you think, instead of answer too quickly
+- surface assumptions you may not notice on your own
+- help you move from vague confusion to a more precise question
+- preserve your ownership of the final understanding
+
+These skills are especially strong for technical topics, strategy questions, self-reflection, research framing, and concept learning.
 
 ## Choose a Version
 
@@ -66,6 +94,16 @@ If your Claude Code workflow supports reusable local skills or similar prompt-pa
 - `Use $socratic-discovery-zh ...`
 
 The important part is not a fixed path. What matters is that the selected skill folder is available to your assistant as a local reusable skill.
+
+## Design Principles
+
+These skills are built around a few core ideas:
+
+- do not give the full answer too early
+- ask one substantial question at a time
+- match the user's real level instead of performing expertise
+- treat confusion as something to map, not something to hide
+- end by returning the summary to the user, not the assistant
 
 ## Repository Layout
 
