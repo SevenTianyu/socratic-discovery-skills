@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cyber Socrates"
+  short_description: "Explore blind spots and unknown unknowns through one question at a time"
+  default_prompt: "Use $socratic-discovery-en to help me think through something I do not understand yet by asking one question at a time instead of giving me the answer directly."
