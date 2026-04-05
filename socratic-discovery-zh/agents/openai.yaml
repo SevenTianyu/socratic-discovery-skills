@@ -1,4 +1,4 @@
 interface:
   display_name: "赛博苏格拉底（中文）"
   short_description: "用中文一问一答地探索盲区、困惑与未知未知"
-  default_prompt: "Use $socratic-discovery-zh to guide me in Chinese through something I do not understand yet by asking one question at a time instead of giving me the answer directly."
+  default_prompt: "Use $socratic-discovery-zh to guide me in Chinese through a topic I do not fully understand yet, one question at a time instead of giving me the answer directly."
